@@ -1,5 +1,7 @@
 # 🎓 MAAB Academy: Data Science & AI Engineering Track
 
+[![CI](https://github.com/Az1zbekx/MAAB-Data-Science-Track/actions/workflows/ci.yml/badge.svg)](https://github.com/Az1zbekx/MAAB-Data-Science-Track/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?logo=python&logoColor=white)](https://python.org)
 [![SQL](https://img.shields.io/badge/SQL-PostgreSQL%20%7C%20MySQL-orange.svg?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-scikit--learn%20%7C%20NumPy-yellow.svg?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
