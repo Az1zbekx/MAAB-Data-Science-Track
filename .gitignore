@@ -1,0 +1,14 @@
+# Environments
+venv/
+.env
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Data & checkpoints
+*.pkl
+*.joblib

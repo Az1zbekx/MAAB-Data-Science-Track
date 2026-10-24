@@ -1,0 +1,10 @@
+x = np.random.uniform(0, 10, 100)
+y = np.random.uniform(0, 10, 100)
+
+plt.figure()
+plt.scatter(x, y, c='teal', marker='*')
+plt.title("Random Scatter Plot")
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.grid(True)
+plt.show()

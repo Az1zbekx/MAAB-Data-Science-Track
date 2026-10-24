@@ -1,0 +1,21 @@
+DROP TABLE IF EXISTS EmpBirth;
+CREATE TABLE EmpBirth
+(
+    EmpId INT IDENTITY(1,1),
+    EmpName VARCHAR(50),
+    BirthDate DATETIME
+);
+GO
+
+INSERT INTO EmpBirth(EmpName,BirthDate)
+SELECT 'Pawan' , '1983-12-04' UNION ALL
+SELECT 'Zuzu' , '1986-11-28' UNION ALL
+SELECT 'Parveen', '1977-05-07' UNION ALL
+SELECT 'Mahesh', '1983-01-13' UNION ALL
+SELECT 'Ramesh', '1983-05-09';
+
+SELECT EmpName, BirthDate
+FROM EmpBirth
+WHERE MONTH(BirthDate) = 5 
+  AND DAY(BirthDate) BETWEEN 7 AND 15;
+GO
